@@ -1,4 +1,4 @@
-GP Calculator App on android with startapp SDK integrated
+#GP Calculator App on android with startapp SDK integrated
 
 This android application is used to calculate gradepoints on a 5.0 scale.
 
