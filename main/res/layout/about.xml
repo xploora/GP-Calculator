@@ -1,0 +1,59 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gravity="center_horizontal"
+	android:orientation="vertical"
+	android:weightSum="100"
+	style="@style/screenStyles">
+
+	<TextView
+		android:id="@+id/about_text"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_weight="90"
+		android:gravity="center"
+		android:text="@string/about"
+		android:textColor="#000000"
+		android:textSize="15sp"/>
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_weight="10"
+		android:gravity="center"
+		android:orientation="vertical"
+		android:layout_marginBottom="20dp">
+
+		<TextView
+			android:id="@+id/developer"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerInParent="true"
+			android:layout_centerHorizontal="true"
+			android:text="Developed by RAY"
+			android:layout_gravity="center_horizontal"
+			android:textSize="15sp"
+			android:textColor="#000000"/>
+
+		<TextView
+			android:id="@+id/department"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerInParent="true"
+			android:layout_centerHorizontal="true"
+			android:text="Department of Computer Engineering"
+			android:layout_gravity="center_horizontal"
+			android:textSize="15sp"
+			android:textColor="#000000"/>
+
+		<TextView
+			android:id="@+id/university"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="University of Ilorin"
+			android:layout_gravity="center_horizontal"
+			android:textSize="15sp"
+			android:textColor="#000000"/>
+
+	</LinearLayout>
+</LinearLayout>

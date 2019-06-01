@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<resources>
+    <style name="AppTheme" parent="@android:style/Theme.Holo">
+		<item name="android:actionBarStyle"> @style/MyActionBar </item>
+		<item name="android:actionBarTabTextStyle"> @style/MyActionBarTitleText </item>
+		<item name="android:actionMenuTextColor"> #FFFFFF </item>
+	</style>
+
+	<style name="MyActionBar" parent="@android:style/Widget.Holo.ActionBar">
+		<item name="android:background"> #888888 </item>
+		<item name="android:titleTextStyle"> @style/MyActionBarTitleText </item>
+	</style>
+
+	<style name="MyActionBarTitleText" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+		<item name="android:textColor"> #FFFFFF </item>
+	</style>
+
+	<style name="buttonStyles">
+		<item name="android:background"> #999999 </item>
+		<item name="android:textColor"> #FFFFFF </item>
+	</style>
+
+	<style name="screenStyles">
+		<item name="android:background"> #CCCCCC </item>
+	</style>
+	
+	<style name="MyActionBarTabText" parent="@android:style/Widget.Holo.ActionBar.TabText">
+	<item name="android:textColor"> #FFFFFF </item>
+	</style>
+</resources>
+-->
+<resources>
+    <style name="AppTheme" parent="@android:style/Theme.Holo.Light">
+		<item name="android:actionBarStyle"> @style/myActionBar </item>
+	</style>
+
+	<style name="myActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+		<item name="android:background"> #8888FF </item>
+		<item name="android:titleTextStyle"> @style/titleText </item>
+	</style>
+
+	<style name="titleText" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+		<item name="android:textColor"> #FFFFFF </item>
+		<item name="android:textColorPrimary"> #FFFFFF </item>
+	</style>
+
+	<style name="buttonStyles">
+		<item name="android:background"> #999999 </item>
+		<item name="android:textColor"> #FFFFFF </item>
+	</style>
+
+	<style name="screenStyles">
+		<item name="android:background"> #CCCCCC </item>
+	</style>
+</resources>

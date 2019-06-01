@@ -1,0 +1,165 @@
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	style="@style/screenStyles">
+
+	<TextView
+		android:id="@+id/how_many"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textSize="20sp"
+		android:layout_centerHorizontal="true"
+		android:layout_alignParentTop="true"
+		android:text="How many courses?"
+		android:textColor="#000000"/>
+
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="10dp"
+		android:orientation="vertical"
+		android:layout_alignParentBottom="true"
+		android:layout_centerHorizontal="true"
+		android:gravity="center_horizontal">
+		<LinearLayout
+			android:id="@+id/row_0"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal">
+			<TextView
+				android:id="@+id/screen"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="30dp"
+				android:layout_gravity="center_horizontal"
+				android:paddingLeft="5dp"
+				android:paddingRight="5dp"
+				android:background="#FFFFFF"
+				android:textColor="#0000FF"
+				android:text=""
+				android:textSize="30sp"/>
+		</LinearLayout>
+		
+		<GridLayout	xmlns:android="http://schemas.android.com/apk/res/android"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center"
+					android:columnCount="3"
+					android:orientation="horizontal" >
+	
+			<Button
+				android:id="@+id/button_1"
+				android:text="1"
+				android:layout_width="wrap_content"
+				android:layout_margin = "5dp"
+				android:onClick="onButtonClick"
+				android:background="@drawable/btn_rounded"
+				style="@style/buttonStyles"/>
+			<Button
+				android:id="@+id/button_2"
+				android:text="2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_margin = "5dp"
+				android:onClick="onButtonClick"
+				android:background="@drawable/btn_rounded"
+				style="@style/buttonStyles"/>
+			<Button
+				android:id="@+id/button_3"
+				android:text="3"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_margin= "5dp"
+				android:onClick="onButtonClick"
+				android:background="@drawable/btn_rounded"
+				style="@style/buttonStyles"/>
+
+			<Button
+				android:id="@+id/button_4"
+				android:text="4"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_margin= "5dp"
+				android:onClick="onButtonClick"
+				android:background="@drawable/btn_rounded"
+				style="@style/buttonStyles"/>
+			<Button
+				android:id="@+id/button_5"
+				android:text="5"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_margin= "5dp"
+				android:onClick="onButtonClick"
+				android:background="@drawable/btn_rounded"
+				style="@style/buttonStyles"/>
+			<Button
+				android:id="@+id/button_6"
+				android:text="6"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_margin= "5dp"
+				android:onClick="onButtonClick"
+				android:background="@drawable/btn_rounded"
+				style="@style/buttonStyles"/>
+
+			<Button
+				android:id="@+id/button_7"
+				android:text="7"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_margin= "5dp"
+				android:onClick="onButtonClick"
+				android:background="@drawable/btn_rounded"
+				style="@style/buttonStyles"/>
+			<Button
+				android:id="@+id/button_8"
+				android:text="8"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_margin = "5dp"
+				android:onClick="onButtonClick"
+				android:background="@drawable/btn_rounded"
+				style="@style/buttonStyles"/>
+			<Button
+				android:id="@+id/button_9"
+				android:text="9"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_margin = "5dp"
+				android:onClick="onButtonClick"
+				android:background="@drawable/btn_rounded"
+				style="@style/buttonStyles"/>
+
+			<Button
+				android:id="@+id/clear_button"
+				android:text="clr"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_margin = "5dp"
+				android:onClick="onClearClick"
+				android:background="@drawable/btn_rounded_red"
+				style="@style/buttonStyles"/>
+			<Button
+				android:id="@+id/button_0"
+				android:text="0"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_margin = "5dp"
+				android:onClick="onButtonClick"
+				android:background="@drawable/btn_rounded"
+				style="@style/buttonStyles"/>
+			<Button
+				android:id="@+id/next_button"
+				android:text="NEXT"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_margin = "5dp"
+				android:onClick="onNextClick"
+				android:background="@drawable/btn_rounded_green"
+				android:textColor="#FFFFFF"/>
+		</GridLayout>
+
+	</LinearLayout>
+
+</RelativeLayout>

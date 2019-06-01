@@ -1,0 +1,28 @@
+<RelativeLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		style="@style/screenStyles">
+
+	<TextView
+		android:id="@+id/your_grade_point"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true"
+		android:layout_centerHorizontal="true"
+		android:text="Your Grade Point:"
+		android:textColor="#000000"
+		android:textSize="30sp"/>
+
+	<TextView
+		android:id="@+id/gp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/your_grade_point"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="30dp"
+		android:text=""
+		android:textColor="#000000"
+		android:textSize="30sp"/>
+
+</RelativeLayout>

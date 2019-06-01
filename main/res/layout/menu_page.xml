@@ -1,0 +1,29 @@
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	style="@style/screenStyles">
+
+	<Button
+		android:id="@+id/start_button"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="10dp"
+		android:layout_centerInParent="true"
+		android:text="CALCULATOR"
+		android:onClick="calculatorClicked"
+		style="@style/buttonStyles"
+		android:background="@drawable/rounded_btn"/>
+	<Button
+		android:id="@+id/exit_button"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="50dp"
+		android:layout_centerHorizontal="true"
+		android:layout_alignParentBottom="true"
+		android:text="EXIT"
+		android:onClick="exitClicked"
+		style="@style/buttonStyles"
+		android:background="@drawable/rounded_btn"/>
+
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GP Calculator</string>
+
+	<string name="about">
+		The goal of this Application is to help students
+		to easily calculate their grade points.
+		It should be noted that it is only accurate for Institutions
+		that use a 5.0 grading system with grades ranging from A-F
+		respectively corresponding to points 5-0.
+	</string>
+
+</resources>
